@@ -41,7 +41,7 @@ jobs:
             apt-get install cf-cli
       - run:
           name: Install jq
-         command: |
+          command: |
             apt-get -y install jq
 
       - run:
@@ -85,7 +85,7 @@ jobs:
             apt-get install cf-cli
       - run:
           name: Install jq
-         command: |
+          command: |
             apt-get -y install jq
 
       - run:
